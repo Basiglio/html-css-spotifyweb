@@ -21,6 +21,7 @@ main {
   background-color: black;
   padding-left: 10px;
   position: relative;
+  overflow: hidden;
 }
 /* HOME LOGO */
 .main_nav .home_logo {
@@ -46,6 +47,10 @@ main {
 .menu_playlist li {
   list-style: none;
   color: white;
+}
+.menu_function i {
+  color: white;
+  padding-right: 10px;
 }
 
 /* MENU ACCOUNT */
@@ -82,4 +87,5 @@ footer {
   width: 100%;
   height: 90px;
   background-color: grey;
+  z-index: 1;
 }
