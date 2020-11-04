@@ -114,7 +114,13 @@ main {
 hr {
   margin: 10px 0;
 }
-
+/* HOVER */
+.main_nav a:hover {
+  color: white;
+}
+.main_nav i:hover {
+  color: white;
+}
 
 
 
