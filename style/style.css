@@ -9,6 +9,9 @@
   height: 100vh;
   background-color: blue;
 }
+a {
+  text-decoration: none;
+}
 
 main {
   display: flex;
@@ -19,7 +22,7 @@ main {
   width: 250px;
   height: 100%;
   background-color: black;
-  padding-left: 10px;
+  padding-left: 15px;
   position: relative;
   overflow: hidden;
 }
@@ -29,7 +32,7 @@ main {
   line-height: 100px;
 }
 .main_nav img {
-  width: 200px;
+  width: 150px;
   vertical-align: middle;
 }
 /* MENU FUNCTION */
@@ -38,6 +41,20 @@ main {
 }
 .menu_function li {
   list-style: none;
+  color: grey;
+  padding: 5px 0;
+}
+.menu_function i {
+  color: grey;
+  padding-right: 10px;
+}
+.menu_function a {
+  color: grey;
+}
+.menu_function .fas.fa-home {
+  color: white;
+}
+.menu_function  #home{
   color: white;
 }
 /* MENU PLAYLIST */
@@ -46,19 +63,27 @@ main {
 }
 .menu_playlist li {
   list-style: none;
+  padding: 5px 0;
+}
+.menu_playlist li:first-child{
   color: white;
 }
-.menu_function i {
-  color: white;
+.menu_playlist i {
+  font-size: 30px;
+  color: grey;
   padding-right: 10px;
+  vertical-align: middle;
 }
+.menu_playlist a {
+  color: grey;
+}
+
 
 /* MENU ACCOUNT */
 .menu_account {
   height: 50px;
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
-  border: 1px solid black;
   position: absolute;
   bottom: 0%;
 }
