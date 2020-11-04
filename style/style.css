@@ -130,16 +130,79 @@ hr {
   text-align: right;
   background-color: rgba(0, 0, 0, 0.5);
 }
-.overlay_subscribe a{
+.overlay_subscribe #button_subscribe{
   border: 1px solid white;
-  margin-right: 5%;
-  padding: 10px 30px;;
+  margin-right: 0 auto;
+  padding: 10px 30px;
   border-radius: 50px;
   color: white;
+  margin-right: 5%;
 }
-.overlay_subscribe a {
+/* MENU MAIN */
+.menu_main ul{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.menu_main ul li {
+  list-style: none;
+  padding-left: 20px;
+}
 
+.menu_main ul li a {
+  color: grey;
 }
+.menu_main ul li a:hover {
+  color: #1cd764;
+}
+/* ASCOLTATI DI RECENTE */
+.main_content h2 {
+  color: white;
+  margin: 20px 0;
+}
+.wrapper_main {
+  width: 92%;
+  margin: 0 auto;
+  /* border: 1px solid white; */
+}
+.album {
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper_main img {
+  width: 100%
+}
+
+.album .label_album {
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.overlay .far.fa-play-circle {
+  color: white;
+  font-size: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.label_album:hover .overlay {
+  display: block;
+}
+figcaption {
+  text-align: center;
+}
+
+
 
 
 
