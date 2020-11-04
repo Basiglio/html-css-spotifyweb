@@ -22,7 +22,7 @@ main {
   width: 250px;
   height: 100%;
   background-color: black;
-  padding-left: 15px;
+  padding: 0 15px;
   position: relative;
   overflow: hidden;
 }
@@ -46,7 +46,7 @@ main {
 }
 .menu_function i {
   color: grey;
-  padding-right: 10px;
+  width: 30px;
 }
 .menu_function a {
   color: grey;
@@ -77,18 +77,42 @@ main {
 .menu_playlist a {
   color: grey;
 }
-
+.menu_playlist {
+  overflow: hidden;
+}
 
 /* MENU ACCOUNT */
 .menu_account {
-  height: 50px;
+  height: 80px;
   width: 80%;
   margin: 0 auto;
   position: absolute;
   bottom: 0%;
 }
 .menu_account h6, .menu_account h5 {
+  display: inline-block;
+}
+.menu_account h6 {
+  color: grey;
+  padding-left: 8px;
+}
+.menu_account h5 {
   color: white;
+  font-size: 18px;
+  padding-left: 10px;
+}
+.menu_account .fas.fa-arrow-circle-down {
+  color: grey;
+  display: inline-block;
+  font-size: 10px;
+}
+.menu_account .fas.fa-user-circle {
+  color: grey;
+  font-size: 30px;
+  vertical-align: middle;
+}
+hr {
+  margin: 10px 0;
 }
 
 
