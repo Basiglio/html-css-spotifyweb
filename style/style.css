@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
 }
+
 .wrapper {
   width: 100%;
   height: 100vh;
@@ -13,11 +14,63 @@ main {
   display: flex;
   height: calc(100% - 90px);
 }
+/* NAVIGATOR */
 .main_nav {
-  width: 300px;
+  width: 250px;
   height: 100%;
-  background-color: yellow;
+  background-color: black;
+  padding-left: 10px;
+  position: relative;
 }
+/* HOME LOGO */
+.main_nav .home_logo {
+  height: 100px;
+  line-height: 100px;
+}
+.main_nav img {
+  width: 200px;
+  vertical-align: middle;
+}
+/* MENU FUNCTION */
+.menu_function {
+  padding-bottom: 20px;
+}
+.menu_function li {
+  list-style: none;
+  color: white;
+}
+/* MENU PLAYLIST */
+.menu_playlist {
+  height: 200px;
+}
+.menu_playlist li {
+  list-style: none;
+  color: white;
+}
+
+/* MENU ACCOUNT */
+.menu_account {
+  height: 50px;
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid black;
+  position: absolute;
+  bottom: 0%;
+}
+.menu_account h6, .menu_account h5 {
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .main_content {
   width: 100%;
@@ -28,5 +81,5 @@ main {
 footer {
   width: 100%;
   height: 90px;
-  background-color: black;
+  background-color: grey;
 }
