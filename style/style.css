@@ -70,16 +70,24 @@ main {
  color: white;
  font-size: 15px;
 }
-.menu_playlist i {
+#playlist {
+  padding-top: 10px;
+}
+#playlist i {
   font-size: 30px;
-  color: grey;
+  color: white;
   padding-right: 10px;
   vertical-align: middle;
+}
+#playlist h3 {
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
+  font-size: 15px;
 }
 .menu_playlist a {
   color: grey;
 }
-
 /* MENU ACCOUNT */
 .menu_account {
   height: 80px;
@@ -164,6 +172,7 @@ hr {
 .album {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .wrapper_main img {
   width: 100%
