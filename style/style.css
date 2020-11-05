@@ -151,6 +151,7 @@ hr {
 .menu_main ul{
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   padding-top: 20px;
 }
 .menu_main ul li {
@@ -170,7 +171,7 @@ hr {
   margin: 20px 0;
 }
 .wrapper_main {
-  width: 92%;
+  width: 90%;
   margin: 0 auto;
 }
 .album {
@@ -277,6 +278,7 @@ footer {
 }
 /* CENTRAL PLAYER */
 #central_player {
+  width: 600px;
   height: 100%;
   padding: 20px;
   text-align: center;
@@ -288,7 +290,7 @@ footer {
   cursor: pointer;
 }
 .song_bar {
-  width: 400px;
+  width: 60%;
   height: 6px;
   border: 1px solid grey;
   border-radius: 20px;
@@ -296,7 +298,7 @@ footer {
   display: inline-block;
 }
 .minute {
-  width: 100px;
+  width: 30%;
   height: 100%;
   background-color: white;
 }
@@ -309,6 +311,7 @@ footer {
 /* RIGHT TOOL */
 #utility_tool {
   height: 100%;
+  width: 300px;
   padding: 20px;
   display: flex;
   justify-content: flex-end;
@@ -320,13 +323,13 @@ footer {
   cursor: pointer;
 }
 .volume_bar {
-  width: 100px;
+  width: 80%;
   height: 6px;
   border: 1px solid grey;
   border-radius: 20px;;
 }
 .volume {
-  width: 40px;
+  width: 40%;
   height: 100%;
   background-color: grey;
 }
@@ -342,7 +345,27 @@ footer {
 
 @media all and (max-width: 768px) {
 
-  .album {
+  /* ALBUM */
+  .album .label_album {
+    width: 100px;
+    height: 100px;
+  }
+  /* MENU PRINCIPALE CENTRALE */
+  .menu_main ul {
+    width: 90%;
+  }
+  /* OVERLAY */
+  .main_content {
+    width: 80%;
+  }
+
+  footer #player span {
+    font-size: 9px;
+  }
+
+
+
+
 
 
 
