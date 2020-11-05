@@ -75,14 +75,14 @@ main {
 }
 #playlist i {
   font-size: 30px;
-  color: white;
+  color: grey;
   padding-right: 10px;
   vertical-align: middle;
 }
 #playlist h3 {
   display: inline-block;
   vertical-align: middle;
-  color: white;
+  color: grey;
   font-size: 15px;
 }
 .menu_playlist a {
@@ -205,7 +205,30 @@ hr {
 }
 figcaption {
   text-align: center;
+  color: white;
 }
+figcaption:last-child {
+  color: grey;
+}
+/* CREATI PER TE */
+.album_recent_play {
+  justify-content: flex-start;
+}
+.label_album_margin {
+  margin-right: 30px;
+}
+h2.title {
+  margin-bottom: 5px;
+}
+.main_content p {
+  color: grey;
+  margin-bottom: 20px;
+}
+/* ARTISTI PIU POPOLARI */
+.circle_frame {
+  
+}
+
 
 
 
