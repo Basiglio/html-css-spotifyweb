@@ -173,7 +173,7 @@ hr {
 }
 .album {
   display: flex;
-  margin-right: 15px;
+  justify-content: flex-start;
   flex-wrap: wrap;
 }
 .wrapper_main img {
@@ -217,7 +217,7 @@ figcaption:last-child {
   justify-content: flex-start;
 }
 .label_album_margin {
-  margin-right: 30px;
+  margin-right: 20px;
 }
 h2.title {
   margin-bottom: 5px;
