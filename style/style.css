@@ -235,10 +235,48 @@ h2.title {
 footer {
   width: 100%;
   height: 90px;
-  background-color: #515151;
+  background-color: #282828;
   z-index: 1;
 }
-
+#player {
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  display: flex;
+}
+/* BRANO CORRENTE */
+#current_play {
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+#current_play img {
+  width: 50px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+#info_play {
+  width: 100px;
+}
+#info_play h5 {
+  color: white;
+}
+#info_play h6 {
+  color: grey;
+}
+#elements_play {
+  color: grey;
+}
+#elements_play i {
+  padding-right: 5px;
+}
+/* CENTRAL PLAYER */
+#central_player {
+  width: 300px;
+  height: 100%;
+  border: 1px solid black;
+}
 
 
 
