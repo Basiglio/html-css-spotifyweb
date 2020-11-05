@@ -271,35 +271,67 @@ footer {
 }
 #elements_play i {
   padding-right: 5px;
+  cursor: pointer;
 }
 /* CENTRAL PLAYER */
 #central_player {
-  width: 500px;
   height: 100%;
-  border: 1px solid black;
-  display: flex;
-  justify-content: center;
   padding: 20px;
+  text-align: center;
 }
 #play_button i{
-  padding-right: 30px;
+  padding-right: 20px;
   color: white;
   font-size: 25px;
+  cursor: pointer;
+}
+.song_bar {
+  width: 400px;
+  height: 6px;
+  border: 1px solid grey;
+  border-radius: 20px;
+  margin-top: 20px;
+  display: inline-block;
+}
+.minute {
+  width: 15%;
+  height: 100%;
+  background-color: white;
+}
+#central_player span {
+  display: inline-block;
+  color: white;
+  font-size: 15px;
+  padding: 0 20px;
 }
 /* RIGHT TOOL */
 #utility_tool {
-  width: 300px;
   height: 100%;
-  border: 1px solid black;
   padding: 20px;
   display: flex;
+  justify-content: flex-end;
   align-items:center;
 }
 #utility_tool i {
   padding-right: 20px;
   color: white;
-
+  cursor: pointer;
 }
+.volume_bar {
+  width: 100px;
+  height: 6px;
+  border: 1px solid grey;
+  border-radius: 20px;;
+}
+.volume {
+  width: 40%;
+  height: 100%;
+  background-color: grey;
+}
+#player i:hover {
+  color: #1cd764;
+}
+
 
 
 
