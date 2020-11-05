@@ -243,6 +243,7 @@ footer {
   height: 100%;
   border: 1px solid black;
   display: flex;
+  justify-content: space-between;
 }
 /* BRANO CORRENTE */
 #current_play {
@@ -273,6 +274,11 @@ footer {
 }
 /* CENTRAL PLAYER */
 #central_player {
+  width: 500px;
+  height: 100%;
+  border: 1px solid black;
+}
+#utility_tool {
   width: 300px;
   height: 100%;
   border: 1px solid black;
