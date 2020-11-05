@@ -226,7 +226,7 @@ h2.title {
 }
 /* ARTISTI PIU POPOLARI */
 .circle_frame {
-  
+  border-radius: 100%;
 }
 
 
