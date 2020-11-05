@@ -362,6 +362,10 @@ footer {
   footer #player span {
     font-size: 9px;
   }
+  footer #player i {
+    font-size: 12px;
+    padding-right: 10px;
+  }
 
 
 
