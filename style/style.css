@@ -245,7 +245,7 @@ footer {
   display: flex;
   justify-content: space-between;
 }
-/* BRANO CORRENTE */
+/* BRANO CORRENTE LEFT */
 #current_play {
   height: 100%;
   padding: 20px;
@@ -277,7 +277,18 @@ footer {
   width: 500px;
   height: 100%;
   border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
 }
+#play_button i{
+  padding-right: 30px;
+  color: white;
+  font-size: 25px;
+}
+
+
+/* RIGHT TOOL */
 #utility_tool {
   width: 300px;
   height: 100%;
