@@ -100,7 +100,8 @@ main {
 }
 .menu_account h5 {
   color: white;
-  font-size: 18px;
+  font-size: 20px;
+  vertical-align: middle;
 }
 .menu_account .fas.fa-arrow-circle-down {
   color: grey;
@@ -111,6 +112,7 @@ main {
   color: grey;
   font-size: 30px;
   vertical-align: middle;
+  padding-right: 10px;
 }
 hr {
   margin: 10px 0;
@@ -143,7 +145,7 @@ hr {
 .main_content {
   width: 100%;
   height: 100%;
-  background-color: #2b44bb;
+  background-color: #294258;
   overflow-y: auto;
 }
 .menu_main ul{
@@ -294,7 +296,7 @@ footer {
   display: inline-block;
 }
 .minute {
-  width: 15%;
+  width: 100px;
   height: 100%;
   background-color: white;
 }
@@ -324,7 +326,7 @@ footer {
   border-radius: 20px;;
 }
 .volume {
-  width: 40%;
+  width: 40px;
   height: 100%;
   background-color: grey;
 }
