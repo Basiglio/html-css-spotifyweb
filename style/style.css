@@ -286,13 +286,19 @@ footer {
   color: white;
   font-size: 25px;
 }
-
-
 /* RIGHT TOOL */
 #utility_tool {
   width: 300px;
   height: 100%;
   border: 1px solid black;
+  padding: 20px;
+  display: flex;
+  align-items:center;
+}
+#utility_tool i {
+  padding-right: 20px;
+  color: white;
+
 }
 
 
