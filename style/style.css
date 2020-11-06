@@ -392,7 +392,12 @@ footer {
 }
 
 
+@media all and (max-width: 1199px) {
 
+  .label_full {
+   width: calc(100% / 4);
+  }
+}
 
 
 
