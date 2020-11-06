@@ -45,7 +45,7 @@ main {
 .menu_function li {
   list-style: none;
   color: grey;
-  padding: 5px 0;
+  padding: 5px 0px;
 }
 .menu_function i {
   color: grey;
@@ -59,6 +59,7 @@ main {
 }
 .menu_function  #home{
   color: white;
+  margin-left: -5px;
 }
 /* MENU PLAYLIST */
 .menu_playlist {
@@ -211,6 +212,7 @@ hr {
   display: inline-block;
   position: relative;
   bottom: -5px;
+  left: -10px;
 }
 /* ASCOLTATI DI RECENTE */
 .main_content h2 {
