@@ -449,6 +449,23 @@ footer {
   .label_full {
    width: calc(100% / 2);
   }
+  #current_play {
+    width: 100px;
+    padding: 5px;
+  }
+  #current_play h5 {
+    font-size: 50%;
+  }
+  #current_play h6 {
+    font-size: 50%;
+  }
+  #central_player {
+    width: calc(100% - 200px);
+  }
+  #utility_tool {
+    width: 100px;
+    padding: 5px;
+  }
 
 
 }
