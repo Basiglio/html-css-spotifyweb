@@ -394,7 +394,6 @@ footer {
   /* MENU ACCOUNT */
   .menu_account h5 {
     font-size: 16px;
-
   }
 
 
@@ -474,6 +473,9 @@ footer {
  /* LABEL SECTION */
   .label_full {
   width: calc(100% / 2);
+ }
+ .menu_account {
+   margin-top: 380px;
  }
 
  /* FOOTER PLAYER */
