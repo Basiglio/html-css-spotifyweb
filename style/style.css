@@ -174,14 +174,13 @@ hr {
   margin: 20px 0;
 }
 .wrapper_main {
-  width: 90%;
-  margin: 0 auto;
+  width: 100%;
+  padding: 50px;
 }
 .album {
   display: flex;
-  justify-content: flex-start;
-  /* flex-wrap: wrap; */
-  width: calc(100% / 6);
+  flex-wrap: wrap;
+  /* width: calc(100% / 6); */
 }
 .wrapper_main img {
   width: 100%
@@ -357,7 +356,7 @@ footer {
 
 
 /* MD */
-@media all and (max-width: 768px) {
+@media all and (max-width: 991px) {
 
   /* ALBUM */
   .album .label_album {
@@ -380,7 +379,7 @@ footer {
 }
 
 /* S */
-@media all and (max-width: 1199px) {
+@media all and (max-width: 767px) {
 
   /* ALBUM */
   .album .label_album {
