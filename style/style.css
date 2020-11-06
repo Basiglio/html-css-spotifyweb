@@ -175,21 +175,21 @@ hr {
 }
 .wrapper_main {
   width: 100%;
-  padding: 50px;
+  padding: 20px;
 }
 .album {
   display: flex;
   flex-wrap: wrap;
-  /* width: calc(100% / 6); */
 }
 .wrapper_main img {
   width: 100%
 }
-
 .album .label_album {
-  width: 200px;
-  height: 200px;
   position: relative;
+}
+.label_full {
+ width: calc(100% / 6);
+ padding-right: 10px;
 }
 .overlay {
   position: absolute;
@@ -222,9 +222,7 @@ figcaption:last-child {
 .album_recent_play {
   justify-content: flex-start;
 }
-.label_album_margin {
-  margin-right: 20px;
-}
+
 h2.title {
   margin-bottom: 5px;
 }
@@ -356,12 +354,14 @@ footer {
 
 
 /* MD */
-@media all and (max-width: 991px) {
+@media all and (max-width: 768px) {
 
   /* ALBUM */
   .album .label_album {
-    width: 100px;
-    height: 100px;
+
+  }
+  .label_full {
+   width: calc(100% / 4);
   }
   /* MENU PRINCIPALE CENTRALE */
   .menu_main ul {
@@ -382,10 +382,12 @@ footer {
 @media all and (max-width: 767px) {
 
   /* ALBUM */
-  .album .label_album {
-    width: 180px;
-    height: 180px;
-  }
+  /* .album .label_album {
+    width: 80%;
+  } */
+  /* .label_full {
+   width: calc(100% / 2);
+  } */
 
 
 }
@@ -437,9 +439,12 @@ footer {
   }
   .main_nav_mobile #bot {
     align-self:
-
-
   }
+ /* LABEL SECTION */
+  .label_full {
+  width: calc(100% / 2);
+ }
+
  /* FOOTER PLAYER */
   #current_play {
     width: 100px;
