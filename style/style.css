@@ -130,10 +130,8 @@ hr {
 
 /* MAIN */
 .overlay_subscribe {
-  width: 100%;
+  width: calc(100% - 210px);
   height: 100px;
-  line-height: 100px;
-  text-align: right;
   background-color: rgba(0, 0, 0, 0.5);
   position: fixed;
   top: 0%;
@@ -141,14 +139,37 @@ hr {
   z-index: 1;
   border-bottom: 1px solid black;
 }
-.overlay_subscribe #button_subscribe{
+#subscribe {
+  border: 1px solid white;
+  width: 200px;
+  height: 50px;
+  display: inline-block;
+  position: absolute;
+  right: 10%;
+  top: 25%;
+  border-radius: 50px;
+  transition: transform .2s;
+}
+#subscribe a {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+/* .overlay_subscribe #button_subscribe{
   border: 1px solid white;
   margin-right: 0 auto;
   padding: 10px 30px;
   border-radius: 50px;
   color: white;
   margin-right: 5%;
+  transition: transform .2s;
+} */
+#subscribe:hover {
+  transform: scale(1.5);
 }
+
 /* MENU MAIN */
 .main_content {
   width: 100%;
