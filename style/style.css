@@ -391,6 +391,12 @@ footer {
     width: 90%;
   }
 
+  /* MENU ACCOUNT */
+  .menu_account h5 {
+    font-size: 16px;
+
+  }
+
 
 
   footer #player span {
