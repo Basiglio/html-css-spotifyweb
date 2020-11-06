@@ -317,7 +317,7 @@ footer {
   cursor: pointer;
 }
 .song_bar {
-  width: 80%;
+  width: 60%;
   height: 6px;
   border: 1px solid grey;
   border-radius: 20px;
@@ -333,7 +333,7 @@ footer {
   display: inline-block;
   color: white;
   font-size: 15px;
-  padding: 0 10%;
+  padding: 0 2%;
 }
 /* RIGHT TOOL */
 #utility_tool {
