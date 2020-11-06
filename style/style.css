@@ -35,6 +35,9 @@ main {
 .main_nav img {
   width: 150px;
 }
+.main_nav h5 {
+  display: inline-block;
+}
 /* MENU FUNCTION */
 .menu_function {
   padding-bottom: 20px;
@@ -177,7 +180,8 @@ hr {
 .album {
   display: flex;
   justify-content: flex-start;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
+  width: calc(100% / 6);
 }
 .wrapper_main img {
   width: 100%
@@ -251,12 +255,13 @@ footer {
 /* BRANO CORRENTE LEFT */
 #current_play {
   height: 100%;
+  width: 250px;
   padding: 20px;
   display: flex;
   align-items: center;
 }
 #current_play img {
-  width: 50px;
+  width: 20%;
   vertical-align: middle;
   margin-right: 10px;
 }
@@ -265,20 +270,22 @@ footer {
 }
 #info_play h5 {
   color: white;
+  font-size: 100%;
 }
 #info_play h6 {
   color: grey;
+  font-size: 100%;
 }
 #elements_play {
   color: grey;
 }
 #elements_play i {
-  padding-right: 5px;
+  padding-left: 50%;
   cursor: pointer;
 }
 /* CENTRAL PLAYER */
 #central_player {
-  width: 600px;
+  width: calc(100% - 500px);
   height: 100%;
   padding: 20px;
   text-align: center;
@@ -286,11 +293,11 @@ footer {
 #play_button i{
   padding-right: 20px;
   color: white;
-  font-size: 25px;
+  font-size: 150%;
   cursor: pointer;
 }
 .song_bar {
-  width: 60%;
+  width: 80%;
   height: 6px;
   border: 1px solid grey;
   border-radius: 20px;
@@ -306,12 +313,12 @@ footer {
   display: inline-block;
   color: white;
   font-size: 15px;
-  padding: 0 20px;
+  padding: 0 10%;
 }
 /* RIGHT TOOL */
 #utility_tool {
   height: 100%;
-  width: 300px;
+  width: 250px;;
   padding: 20px;
   display: flex;
   justify-content: flex-end;
@@ -338,11 +345,18 @@ footer {
 }
 
 
+/* HIDDEN LG */
+.lg_hidden {
+  display: none;
+}
 
 
 
 
 
+
+
+/* MD */
 @media all and (max-width: 768px) {
 
   /* ALBUM */
@@ -354,10 +368,6 @@ footer {
   .menu_main ul {
     width: 90%;
   }
-  /* OVERLAY */
-  .main_content {
-    width: 80%;
-  }
 
   footer #player span {
     font-size: 9px;
@@ -367,11 +377,87 @@ footer {
     padding-right: 10px;
   }
 
+}
+
+/* S */
+@media all and (max-width: 1199px) {
+
+  /* ALBUM */
+  .album .label_album {
+    width: 180px;
+    height: 180px;
+  }
 
 
+}
 
 
+/* XS */
+@media all and (max-width: 375px) {
+
+  /* MAIN NAV */
+  .main_nav {
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .xs_hidden {
+    display: none;
+  }
+  .main_nav h4 {
+    display: none;
+  }
+  .main_nav h5 {
+    display: none;
+  }
+  .main_nav h6 {
+    display: none;
+  }
+  .menu_account .fas.fa-user-circle {
+    padding-right: 0px;
+  }
+  /* MIAN NAV MOBILE */
+  .lg_hidden {
+    display: block;
+  }
+  .main_nav_mobile img {
+    width: 100%;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .main_nav_mobile i {
+    font-size: 25px;
+    padding-bottom: 10px;
+    color: white;
+  }
+  .main_nav_mobile .fas.fa-arrow-circle-down {
+    font-size: 10px;
+  }
+  .main_nav_mobile #bot {
+    align-self:
 
 
+  }
+ /* FOOTER PLAYER */
+  #current_play {
+    width: 100px;
+    padding: 5px;
+  }
+  #current_play h5 {
+    font-size: 50%;
+  }
+  #current_play h6 {
+    font-size: 50%;
+  }
+  #central_player {
+    width: calc(100% - 200px);
+  }
+  #utility_tool {
+    width: 100px;
+    padding: 5px;
+  }
 
 }

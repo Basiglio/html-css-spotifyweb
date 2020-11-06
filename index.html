@@ -15,22 +15,40 @@
       <main>
         <!-- NAV LATERALE -->
         <nav class="main_nav">
-          <div class="home_logo">
+          <div class="main_nav_mobile lg_hidden">
+           <img src="https://www.freepnglogos.com/uploads/spotify-logo-png/spotify-logo-spotify-symbol-3.png" alt="logo_mobile">
+          </div>
+          <div class="home_logo xs_hidden">
             <a href="#"><img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_White.png" alt="logo_home"></a>
           </div>
           <section class="menu_function">
             <ul>
-              <li><a href="#" id="home"><i class="fas fa-home"></i>Home</a></li>
-              <li><a href="#"><i class="fas fa-search"></i>Cerca</a></li>
-              <li><a href="#"><i class="fas fa-democrat"></i>La Tua Libreria</a></li>
+              <li>
+                <a href="#" id="home">
+                  <i class="fas fa-home"></i>
+                  <h5 class="xs_hidden">HOME</h5>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fas fa-search"></i>
+                  <h5 class="xs_hidden">CERCA</h5>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fas fa-democrat"></i>
+                  <h5 class="xs_hidden">LA TUA LIBRERIA</h5>
+                </a>
+              </li>
             </ul>
           </section>
-          <h2>PLAYLIST</h2>
-          <a href="#" id="playlist">
+          <h2 class="xs_hidden">PLAYLIST</h2>
+          <a href="#" id="playlist" class="xs_hidden">
             <i class="fas fa-plus-square"></i>
             <h3>Crea Playlist</h3>
           </a>
-          <section class="menu_playlist">
+          <section class="menu_playlist xs_hidden">
             <ul>
               <li><a href="#">Nome Playlist</a></li>
               <li><a href="#">Nome Playlist</a></li>
@@ -47,12 +65,12 @@
           <section class="menu_account">
             <div>
               <i class="fas fa-arrow-circle-down"></i>
-              <h6>installa App</h6>
-              </div>
-            <hr>
+              <h6 class="xs_hidden">installa App</h6>
+            </div>
+            <hr class="xs_hidden">
             <div>
               <i class="fas fa-user-circle"></i>
-              <h5>Emilio Furnari</h5>
+              <h5 class="xs_hidden">Emilio Furnari</h5>
             </div>
           </section>
         </nav>
@@ -214,11 +232,11 @@
               <i class="fas fa-step-forward"></i>
               <i class="fas fa-redo"></i>
             </div>
-            <span>0,45</span>
+            <!-- <span>0,45</span> -->
             <div class="song_bar">
               <div class="minute"></div>
             </div>
-            <span>4,56</span>
+            <!-- <span>4,56</span> -->
           </section>
           <section id="utility_tool">
             <i class="fas fa-bars"></i>
