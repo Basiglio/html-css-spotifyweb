@@ -130,7 +130,7 @@ hr {
 
 /* MAIN */
 .overlay_subscribe {
-  width: calc(100% - 210px);
+  width: calc(100% - 180px);
   height: 100px;
   background-color: rgba(0, 0, 0, 0.5);
   position: fixed;
@@ -520,6 +520,15 @@ footer {
   /* ACTIVE */
   .active_left::before {
    display: none;
+  }
+  .overlay_subscribe {
+    width: 90%;
+  }
+  #subscribe {
+    width: 100px;
+    height: 25px;
+    right: 10%;
+    top: 35%;
   }
 
 }
