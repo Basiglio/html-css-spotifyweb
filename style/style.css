@@ -385,9 +385,9 @@ footer {
   /* .album .label_album {
     width: 80%;
   } */
-  /* .label_full {
+  .label_full {
    width: calc(100% / 2);
-  } */
+  }
 
 
 }
