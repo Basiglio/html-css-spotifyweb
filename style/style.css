@@ -182,7 +182,7 @@ hr {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding-top: 150px;
+  padding-top: 110px;
 }
 .menu_main ul li {
   list-style: none;
@@ -466,10 +466,18 @@ footer {
     width: 100px;
     padding: 5px;
   }
+  .menu_account h5 {
+    font-size: 15px;
+  }
 
 
 }
+@media all and (max-width: 541px) {
+  .menu_account h5 {
+    font-size: 11px;
+  }
 
+}
 
 /* XS */
 @media all and (max-width: 375px) {
@@ -550,6 +558,7 @@ footer {
   }
   .overlay_subscribe {
     width: 90%;
+    height: 60px;
   }
   #subscribe {
     width: 100px;
@@ -557,5 +566,9 @@ footer {
     right: 10%;
     top: 35%;
   }
+  .menu_main ul {
+    padding-top: 65px;
+  }
+
 
 }
